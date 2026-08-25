@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden;
+    background: 333;
+}
+
 .navbar ul{
   list-style-type: none;
   background-color: gray;
