@@ -34,3 +34,9 @@ body {
 .navbar li{
   float: left;
 }
+
+.logo{
+  position:absolute;
+  right:90px;
+  top:60px;
+}
