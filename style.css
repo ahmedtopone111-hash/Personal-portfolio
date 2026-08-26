@@ -38,6 +38,6 @@ body {
 .logo{
   position:absolute;
   right:90px;
-  top:40px;
-  font-weight: 60px;
+  top:9px;
+  font-weight: bold;
 }
