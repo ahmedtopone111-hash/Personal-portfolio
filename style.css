@@ -10,54 +10,68 @@ font-family: 'Cairo', sans-serif;
 }
 .navbar{
   width: 90%;
-  margin-top: 20px;
-  margin-left: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #204b5b;
+  padding: 0 60px;
+  border-radius: 30px;
+  margin-top: 13px;
 }
 
 .navbar ul{
+  display: flex;
   list-style-type: none;
-  background-color: #061216;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-  border-radius:40px;
+  gap: 30px
 }
 
 .navbar a{
  color: white;
   text-decoration: none;
   padding: 17px;
-  display: block;
   text-align: center;
-  font-family: 'Cairo', sans-serif;
-  color: #0a0a0b;
   font-weight: bold;
   color: white;
+  transition: 0.3s;
 }
 
 .navbar a:hover{
   background-color:#257d9c ;
-  transition: 0.3s;
   border-radius: 30px;
 }
 
 
 
-.navbar li{
-  float: left;
-}
-
 .navbar .logo{
-  display: flex;
-  position:absolute;
-  right:110px;
-  top:27px;
   font-weight: 900;
   font-size: 30px;
   color: white;
   display: flex;
-  align-items: center; 
-  justify-content: space-between;
-  padding: 0 20px;
-  border-radius: 30px;
+  align-items: center;
+  
 }
+h1{
+    font-size: 4.6rem;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+span{
+  color:white;
+}
+
+h1:hover {
+    color: gold;
+    text-shadow: 0 0 20px rgba(126, 126, 233, 0.6);
+    transform: scale(1.02);
+    
+   
+span:hover {
+    color: gold;
+    text-shadow: 0 0 20px rgba(126, 126, 233, 0.6);
+    transform: scale(1.02);
