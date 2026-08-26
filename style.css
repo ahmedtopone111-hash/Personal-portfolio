@@ -84,3 +84,23 @@ span:hover {
     color: gold;
     text-shadow: 0 0 20px rgba(126, 126, 233, 0.6);
     transform: scale(1.02);
+
+  .social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  right: 550px;
+  top: 500;
+}
+
+.social-icons :hover{
+  color: red;
+  transition: scale(1.2);
+}
+
+
+
+.social-icons a{
+  font-size: 30px;
+}
