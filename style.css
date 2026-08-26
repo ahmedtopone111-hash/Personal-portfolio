@@ -64,6 +64,12 @@ h1{
     transition: 0.4s ease;
 }
 
+h3 {
+    margin: 20px 0;
+
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
+}
+
 span{
   color:white;
 }
