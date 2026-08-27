@@ -282,6 +282,21 @@ section{
  color: #e0e0e0;
 }
 
+.infomations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.infomations-container img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
 /*-------الفوتر------------*/
 .footer {
   background-color: #080808;
