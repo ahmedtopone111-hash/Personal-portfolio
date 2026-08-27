@@ -139,6 +139,10 @@ section{
   transform: scale(1.2);
 }
 
+.imgg {
+  position: absolute;
+  top: 50%;
+  right: 0;
 /*----------------- الصفحه التانيه  -----------------*/
 #about {
   display: flex;
