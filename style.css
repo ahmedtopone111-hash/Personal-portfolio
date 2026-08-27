@@ -152,33 +152,65 @@ section{
 
 /*----------الصفحه التالته------------*/
 
-#messege {
+#projects {
   display: flex;
   align-items: center;
   padding-left: 10%;
   background-color: #094d80;
 }
 
-.messege-text {
+.projects-text {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.messege-text h1 {
+.projects-text h1 {
   font-size: 4rem;
   color: black;
 }
 
-.messege-text h1 span {
+.projects-text h1 span {
   color: white;
 }
 
-.messege-text h3 {
+.projects-text h3 {
  font-size: 1,8rem;
  color: #e0e0e0;
 }
 
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.project-card {
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  
+}
+
+.project-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-clomuns: 1fr;
+  }
+}
 /*-----------الصفحه الرابعه وغالبا الاخيرة-----------------*/
 #informations {
   display: flex;
