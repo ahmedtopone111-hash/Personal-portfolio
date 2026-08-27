@@ -120,21 +120,21 @@ section{
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-#home .social-icons a:hover.icon-whatsapp {
+#home .social-icons a .icon-whatsapp:hover {
   color: green;
   transform: scale(1.2);
 }
-#home .social-icons a:hover.icon-facebook {
+#home .social-icons a .icon-facebook:hover {
   color: blue;
   transform: scale(1.2);
 }
 
-#home .social-icons a:hover.icon-instagram {
+#home .social-icons a .icon-instagram:hover {
   color: #e711f2;
   transform: scale(1.2);
 }
 
-#home .social-icons a:hover.icon-youtube {
+#home .social-icons a .icon-youtube:hover {
   color: red;
   transform: scale(1.2);
 }
@@ -243,7 +243,7 @@ section{
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
   transition: all 0.2s ease-in-out;
-
+}
 
   
 .btn777:hover {
