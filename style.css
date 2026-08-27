@@ -143,6 +143,8 @@ section{
   position: absolute;
   top: 50%;
   right: 0;
+  width: 300px;
+  height: auto;
 /*----------------- الصفحه التانيه  -----------------*/
 #about {
   display: flex;
