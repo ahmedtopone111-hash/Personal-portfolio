@@ -65,6 +65,10 @@ section{
   align-items: center;
 }
 
+.img-logo {
+  width: 50px;
+  height: auto;
+}
 /*----------------- اول صفحه  -----------------*/
 .home{
   position: relative;
