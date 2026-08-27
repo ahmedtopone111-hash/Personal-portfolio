@@ -239,7 +239,7 @@ section{
 
 @media (max-width: 768px) {
   .projects-container {
-    grid-template-clomuns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
