@@ -120,21 +120,21 @@ section{
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-#home .social-icons a:hover .fa-whatsapp {
-  color: red;
+#home .social-icons a:hover .icon-whatsapp {
+  color: green;
   transform: scale(1.2);
 }
-#home .social-icons a:hover {
-  color: red;
-  transform: scale(1.2);
-}
-
-#home .social-icons a:hover {
-  color: red;
+#home .social-icons a:hover .icon-facebook {
+  color: blue;
   transform: scale(1.2);
 }
 
-#home .social-icons a:hover {
+#home .social-icons a:hover .icon-instagram {
+  color: #e711f2;
+  transform: scale(1.2);
+}
+
+#home .social-icons a:hover .icon-youtube {
   color: red;
   transform: scale(1.2);
 }
