@@ -1,50 +1,61 @@
+/*--------- اساسيات ---------*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+html{
+  scroll-behavior: smooth;
 }
+
 body{
  background-color: #257d9c;
-font-family: 'Cairo', sans-serif;
+ font-family: sans-serif;
 }
+
+section{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+/*-----------------  بدايه الناف بار -----------------*/
 .navbar{
   width: 90%;
-  margin: auto;
+  margin: 13px auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #204b5b;
   padding: 0 60px;
   border-radius: 30px;
-  margin-top: 13px;
+  position: fixed; /*   عشان يبقا فوق وانا ف اي صفحه     */
+  top: 0;
+  left: 5%;
+  z-index: 1000;
 }
 
 .navbar ul{
   display: flex;
   list-style-type: none;
-  gap: 30px
+  gap: 30px;
 }
 
 .navbar a{
- color: white;
+  color: white;
   text-decoration: none;
   padding: 17px;
   text-align: center;
   font-weight: bold;
-  color: white;
   transition: 0.3s;
 }
 
 .navbar a:hover{
-  background-color:#257d9c ;
+  background-color: #257d9c;
   border-radius: 30px;
 }
-
-
 
 .navbar .logo{
   font-weight: 900;
@@ -52,58 +63,161 @@ font-family: 'Cairo', sans-serif;
   color: white;
   display: flex;
   align-items: center;
-  
-}
-h1{
-    font-size: 4.6rem;
-    margin-top: 120px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    transition: 0.4s ease;
-}
-h4{
-  margin-top: 70px;
-  margin-left: 40px;
-}
-h3 {
-    margin: 20px 0;
-
-    font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
 
-span{
-  color:white;
-}
-
-h1:hover {
-    color: gold;
-    text-shadow: 0 0 20px rgba(126, 126, 233, 0.6);
-    transform: scale(1.02);
-    
-   
-span:hover {
-    color: gold;
-    text-shadow: 0 0 20px rgba(126, 126, 233, 0.6);
-    transform: scale(1.02);
-
-  .social-icons{
-  display: flex;
-  justify-content: center;
-  gap: 25px;
+/*----------------- اول صفحه  -----------------*/
+.home{
   position: relative;
-  right: 550px;
-  top: 500;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding-left: 10%;
+} 
+ 
+#home .container1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.social-icons :hover{
-  color: red;
-  transition: scale(1.2);
+#home h4 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
 }
 
+#home h1 {
+  font-family: 'Arizonia', cursive, sans-serif;
+  font-size: 4.6rem;
+  font-weight: bold;
+  color: black;
+  transition: 0.4s ease;
+}
 
+#home h1 span {
+  color: white;
+}
 
-.social-icons a{
+#home h1:hover, #home h1 span:hover {
+  color: gold;
+  transform: scale(1.02);
+}
+  
+#home .social-icons{
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+#home .social-icons a {
   font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#home .social-icons a:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+/*----------------- الصفحه التانيه  -----------------*/
+#about {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background-color: #1b5b73; 
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-text h1 {
+  font-size: 4rem;
+  color: black;
+}
+
+.about-text h1 span {
+  color: white;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  color: #e0e0e0;
+}
+
+
+/*----------الصفحه التالته------------*/
+
+#messege {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background-color: #094d80;
+}
+
+.messege-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.messege-text h1 {
+  font-size: 4rem;
+  color: black;
+}
+
+.messege-text h1 span {
+  color: white;
+}
+
+.messege-text h3 {
+ font-size: 1,8rem;
+ color: #e0e0e0;
+}
+
+/*-----------الصفحه الرابعه وغالبا الاخيرة-----------------*/
+#informations {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background-color: #053153;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.informations-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.informations-text h1 {
+  font-size: 4rem;
+  color: black;
+}
+
+.informations-text h1 span {
+  color: white;
+}
+
+.informations-text h3 {
+ font-size: 1,8rem;
+ color: #e0e0e0;
+}
+
+/*-------الفوتر------------*/
+.footer {
+  background-color: #080808;
+  color:blue;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  width: 100%;
+  border-top: 1px solid #222;
+  box-sizing: border-box;
 }
