@@ -120,6 +120,20 @@ section{
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
+#home .social-icons a:hover .fa-whatsapp {
+  color: red;
+  transform: scale(1.2);
+}
+#home .social-icons a:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+#home .social-icons a:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
 #home .social-icons a:hover {
   color: red;
   transform: scale(1.2);
