@@ -146,7 +146,7 @@ section{
 .imgg {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 25%;
   width: 300px;
   height: auto;
   transform: translateY(-50%);
@@ -179,6 +179,18 @@ section{
 .about-text h3 {
   font-size: 1.8rem;
   color: #e0e0e0;
+}
+img-about{
+position: relative;
+}
+
+.imggg {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 300px;
+  height: auto;
+  transform: translateY(-50%);
 }
 
 
